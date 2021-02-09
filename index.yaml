@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  log-collector:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-02-09T15:51:26.975318+08:00"
+    dependencies:
+    - name: fluent-bit
+      repository: '@fluent'
+      version: 0.10.0
+    - name: sidecarinjector
+      repository: file://../../generic-sidecar-injector/helm/sidecarinjector/
+      version: 0.1.0
+    description: Log Collector for Airlab Recording Service
+    digest: 57cab49ca7391279a8fa8c71651004cd381372f7e3bdc1184ea495df3adfdaaa
+    name: log-collector
+    type: application
+    urls:
+    - https://github.com/arietan/helm-package/releases/download/log-collector-0.1.0/log-collector-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-02-09T15:51:26.562827+08:00"
