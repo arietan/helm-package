@@ -1,0 +1,9 @@
+dependencies:
+- name: fluent-bit
+  repository: https://fluent.github.io/helm-charts
+  version: 0.10.0
+- name: sidecarinjector
+  repository: file://../../generic-sidecar-injector/helm/sidecarinjector/
+  version: 0.1.0
+digest: sha256:c152f29899759905fcff74e067ffaf3acafafab912a5d047122f51f43193d25d
+generated: "2021-02-05T17:13:44.3013+08:00"
